@@ -17,6 +17,7 @@
     background: rgb(82, 195, 3);
     padding: 14px 23px 14px 23px;
     border: none;
+    cursor: pointer;
     
 }
 
@@ -76,3 +77,68 @@
     margin-bottom: 23px;
 
 }
+
+
+#card-box{
+padding-block: 120px;
+}
+#card-box .title{
+    
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-container{
+    margin-top: 34px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: Work Sans;
+
+  
+}
+.card{
+    max-width: 302px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card .image-box{
+    width: 302px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    padding: 10px 23px 10px 23px;
+    border-radius: 5px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+   
+    
+    
+
+}
+
+
